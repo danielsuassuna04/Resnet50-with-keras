@@ -45,3 +45,29 @@ jupyter notebook ResNet.ipynb
 
 * __Image Classification__: Suitable for datasets like CIFAR-10, CIFAR-100, and ImageNet.
 * __Object Detection__: ResNet serves as a backbone for many object detection models.
+
+## Testing with Your Own Data
+__To test the model with your own dataset:__
+
+1. Ensure your data is properly pre-processed (resized, normalized) to fit the input shape expected by ResNet.
+2. After making these changes, re-run the notebook and observe the model's performance with your data.
+
+## Usage
+
+This notebook provides an end-to-end pipeline for training a ResNet model on image datasets. You can modify and adapt the code to fit your specific use case.
+
+## Training the model
+
+```python
+model.fit(train_dataset, epochs=30, validation_data=test_dataset)
+```
+
+## Evaluate the model
+
+```python
+model.evaluate(test_dataset)
+```
+
+
+
+
