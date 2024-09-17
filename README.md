@@ -56,17 +56,7 @@ __To test the model with your own dataset:__
 
 This notebook provides an end-to-end pipeline for training a ResNet model on image datasets. You can modify and adapt the code to fit your specific use case.
 
-## Training the model
 
-```python
-model.fit(train_dataset, epochs=30, validation_data=test_dataset)
-```
-
-## Evaluate the model
-
-```python
-model.evaluate(test_dataset)
-```
 
 
 
