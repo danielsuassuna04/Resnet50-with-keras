@@ -1,6 +1,7 @@
 # Resnet Implementation
 
 This repository contains an implementation of the ResNet (Residual Network) architecture, commonly used for deep learning tasks such as image classification.
+In this notebook, we used the MNIST dataset, which consists of handwritten digits ranging from 0 to 9. After training the model, it achieved an accuracy of 98.98%, demonstrating strong performance in recognizing and classifying the digits correctly.
 
 ## Notebook Overview
 The ResNet.ipynb notebook includes:
